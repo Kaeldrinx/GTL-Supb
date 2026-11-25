@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PEP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "gtceu:tungsten_steel_plate"
+    },
+    "E": {
+      "item": "gtceu:iv_energy_input_hatch"
+    }
+  },
+  "result": {
+    "item": "gtlsupb:iv_void_energy_absorber"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gtlcore:ultimate_terminal"
+    }
+  ],
+  "result": {
+    "item": "gtlsupb:super_terminal"
+  }
+}

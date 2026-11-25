@@ -1,0 +1,39 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.gtlsupb.gtlsupb.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ae2.CraftingCalculationMixin",
+    "ae2.CraftingTreeNodeMixin",
+    "ae2.PatternEncodingTermMenuMixin",
+    "ftbquests.ItemRewardMixin",
+    "ftbquests.ItemTaskMixin",
+    "ftbquests.TaskMixin",
+    "gtceu.recipe.RecipeLogicProviderMixin",
+    "gtceu.recipe.RecipeOutputProviderMixin",
+    "gtceu.recipe.MachineModeProviderMixin",
+    "gtceu.integration.ParallelProviderMixin",
+    "gtlcore.IntegratedHatchRecipeHandlerMixin",
+    "gtlcore.LargeSteamParallelMultiblockMachineMixin",
+    "gtlcore.MEBufferPatternHelperMixin",
+    "gtlcore.MEPatternBufferBindingMixin",
+    "gtlcore.MECraftPatternContainerPartMachineMixin",
+    "gtlcore.MEMolecularAssemblerIOPartMachineMixin",
+    "gtlcore.MEPatternBufferPushPatternMixin",
+    "gtlcore.PatternAssemblyOutputScaleMixin",
+    "gtlcore.WirelessAeNetworkRuntimeMixin"
+  ],
+  "client": [
+    "ae2.AEBaseScreenEncodingMixin",
+    "ae2.MEStorageScreenPinMixin",
+    "ftbchunks.client.ChunkButtonMixin",
+    "ftbchunks.client.ChunkScreenMixin",
+    "ftbchunks.client.ChunkScreenAccessor",
+    "ftbquests.QuestButtonAccessor",
+    "ftbquests.QuestPanelAccessor",
+    "ftbquests.QuestScreenMixin",
+    "gtceu.PatternPreviewWidgetMixin"
+  ],
+  "server": []
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PEP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "gtceu:naquadah_alloy_plate"
+    },
+    "E": {
+      "item": "gtceu:zpm_energy_input_hatch"
+    }
+  },
+  "result": {
+    "item": "gtlsupb:zpm_void_energy_absorber"
+  }
+}

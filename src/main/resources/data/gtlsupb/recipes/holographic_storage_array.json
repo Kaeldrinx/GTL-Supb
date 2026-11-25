@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HDH",
+    "DCD",
+    "HDH"
+  ],
+  "key": {
+    "H": {
+      "item": "gtceu:computer_heat_vent"
+    },
+    "D": {
+      "item": "gtceu:computer_casing"
+    },
+    "C": {
+      "item": "gtceu:high_power_casing"
+    }
+  },
+  "result": {
+    "item": "gtlsupb:holographic_storage_array"
+  }
+}

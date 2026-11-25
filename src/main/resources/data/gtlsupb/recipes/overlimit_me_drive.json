@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "expatternprovider:ex_drive"
+    }
+  ],
+  "result": {
+    "item": "gtlsupb:overlimit_me_drive"
+  }
+}

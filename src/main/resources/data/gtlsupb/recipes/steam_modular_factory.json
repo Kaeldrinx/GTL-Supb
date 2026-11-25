@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MBM",
+    "BUB",
+    "MBM"
+  ],
+  "key": {
+    "M": {
+      "item": "kubejs:precision_steam_mechanism"
+    },
+    "B": {
+      "item": "gtceu:bronze_block"
+    },
+    "U": {
+      "item": "gtlsupb:steam_universal_module"
+    }
+  },
+  "result": {
+    "item": "gtlsupb:steam_modular_factory"
+  }
+}

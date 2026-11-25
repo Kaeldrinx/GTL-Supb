@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gtlsupb:overlimit_me_drive"
+    },
+    {
+      "item": "gtlsupb:overlimit_me_muffler_hatch"
+    }
+  ],
+  "result": {
+    "item": "gtlsupb:overlimit_integrated_hatch"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DCD",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:dirt"
+    },
+    "C": {
+      "item": "gtceu:ulv_fragment_world_collection_machine"
+    }
+  },
+  "result": {
+    "item": "gtlsupb:fragment_world_collector"
+  }
+}

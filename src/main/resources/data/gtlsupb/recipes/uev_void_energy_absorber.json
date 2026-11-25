@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PEP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "gtceu:quantanium_plate"
+    },
+    "E": {
+      "item": "gtceu:uev_energy_input_hatch"
+    }
+  },
+  "result": {
+    "item": "gtlsupb:uev_void_energy_absorber"
+  }
+}

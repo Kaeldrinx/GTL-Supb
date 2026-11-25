@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "GCP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "gtceu:bronze_plate"
+    },
+    "G": {
+      "item": "gtceu:bronze_gear"
+    },
+    "C": {
+      "item": "kubejs:precision_steam_mechanism"
+    }
+  },
+  "result": {
+    "item": "gtlsupb:steam_universal_module"
+  }
+}

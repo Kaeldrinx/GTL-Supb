@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PEP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "gtceu:steel_plate"
+    },
+    "E": {
+      "item": "gtceu:lv_energy_input_hatch"
+    }
+  },
+  "result": {
+    "item": "gtlsupb:lv_void_energy_absorber"
+  }
+}

@@ -1,0 +1,73 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "${mod_license}"
+
+[[mods]]
+modId = "${mod_id}"
+version = "${version}"
+displayName = "${mod_name}"
+authors="XiaoChuan"
+description = "GTL 扩展模组 - 超OP机器层"
+
+[[dependencies.${mod_id}]]
+    modId="forge"
+    mandatory=true
+    versionRange="${forge_version}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "gtceu"
+mandatory = true
+versionRange = "[1.4.4,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "gtlcore"
+mandatory = true
+versionRange = "[1.2.3.2,)"
+ordering = "AFTER"
+side = "BOTH"
+
+# 以下为运行期硬依赖：缺失时会在类加载阶段抛 NoClassDefFoundError（不是可读的缺前置提示）。
+# 声明为 mandatory 后由 FML 在启动早期给出明确的缺失依赖界面。
+[[dependencies.${mod_id}]]
+modId = "ae2"
+mandatory = true
+versionRange = "[15.2.1,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.1.12,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "ftbquests"
+mandatory = true
+versionRange = "[2001.4.22,)"
+ordering = "AFTER"
+side = "BOTH"
+
+# Toma's Configuration：ConfigHolder 在模组构造期（CommonProxy.initInternal）即被加载
+[[dependencies.${mod_id}]]
+modId = "configuration"
+mandatory = true
+versionRange = "[2.2.0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+# 注册 Mixin 配置（必须手动声明，Loom 的 forge.mixinConfigs 不会自动注入此段）
+[[mixins]]
+config = "gtlsupb.mixin.json"

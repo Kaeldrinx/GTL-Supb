@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "gtceu:large_steam_input_hatch"
+    }
+  },
+  "result": {
+    "item": "gtlsupb:ultimate_steam_boost_hatch"
+  }
+}

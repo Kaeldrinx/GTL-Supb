@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PEP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "gtceu:chaos_plate"
+    },
+    "E": {
+      "item": "gtceu:max_energy_input_hatch"
+    }
+  },
+  "result": {
+    "item": "gtlsupb:max_void_energy_absorber"
+  }
+}

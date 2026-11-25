@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M",
+    "D"
+  ],
+  "key": {
+    "M": {
+      "item": "gtceu:max_muffler_hatch"
+    },
+    "D": {
+      "item": "gtlsupb:overlimit_me_drive"
+    }
+  },
+  "result": {
+    "item": "gtlsupb:overlimit_me_muffler_hatch"
+  }
+}

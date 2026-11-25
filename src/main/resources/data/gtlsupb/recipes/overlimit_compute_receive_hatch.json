@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SQS",
+    "QCQ",
+    "SQS"
+  ],
+  "key": {
+    "S": {
+      "item": "gtceu:computer_casing"
+    },
+    "Q": {
+      "item": "gtceu:computation_receiver_hatch"
+    },
+    "C": {
+      "item": "gtceu:computation_transmitter_hatch"
+    }
+  },
+  "result": {
+    "item": "gtlsupb:overlimit_compute_receive_hatch"
+  }
+}

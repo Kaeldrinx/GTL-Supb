@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DEF",
+    "GHI"
+  ],
+  "key": {
+    "A": {
+      "item": "gtceu:large_steam_thermal_centrifuge"
+    },
+    "B": {
+      "item": "kubejs:precision_steam_mechanism"
+    },
+    "C": {
+      "item": "gtceu:large_steam_ore_washer"
+    },
+    "D": {
+      "item": "kubejs:precision_steam_mechanism"
+    },
+    "E": {
+      "item": "gtlsupb:ultimate_steam_boost_hatch"
+    },
+    "F": {
+      "item": "kubejs:precision_steam_mechanism"
+    },
+    "G": {
+      "item": "gtceu:large_steam_centrifuge"
+    },
+    "H": {
+      "item": "kubejs:precision_steam_mechanism"
+    },
+    "I": {
+      "item": "gtceu:large_steam_macerator"
+    }
+  },
+  "result": {
+    "item": "gtlsupb:steam_ore_integrated_hub"
+  }
+}

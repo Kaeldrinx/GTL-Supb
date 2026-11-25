@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EPE",
+    "PMP",
+    "EPE"
+  ],
+  "key": {
+    "E": {
+      "item": "gtceu:me_pattern_buffer"
+    },
+    "P": {
+      "item": "gtceu:quantum_processor"
+    },
+    "M": {
+      "item": "gtceu:me_pattern_buffer_proxy"
+    }
+  },
+  "result": {
+    "item": "gtlsupb:overlimit_quantum_entanglement_hatch"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PEP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "gtceu:rhodium_plated_palladium_plate"
+    },
+    "E": {
+      "item": "gtceu:luv_energy_input_hatch"
+    }
+  },
+  "result": {
+    "item": "gtlsupb:luv_void_energy_absorber"
+  }
+}

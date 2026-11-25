@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AFA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "gtceu:frostproof_machine_casing"
+    },
+    "F": {
+      "item": "gtceu:vacuum_freezer"
+    }
+  },
+  "result": {
+    "item": "gtlsupb:ling_zhu"
+  }
+}

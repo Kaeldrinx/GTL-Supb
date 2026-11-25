@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AVA",
+    "VVV",
+    "AVA"
+  ],
+  "key": {
+    "A": {
+      "item": "gtceu:advanced_computer_casing"
+    },
+    "V": {
+      "item": "gtceu:computer_heat_vent"
+    }
+  },
+  "result": {
+    "item": "gtlsupb:floating_point_engine"
+  }
+}

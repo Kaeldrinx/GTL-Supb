@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PEP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "gtceu:neutronium_plate"
+    },
+    "E": {
+      "item": "gtceu:uhv_energy_input_hatch"
+    }
+  },
+  "result": {
+    "item": "gtlsupb:uhv_void_energy_absorber"
+  }
+}

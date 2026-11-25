@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PEP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "gtceu:draconium_plate"
+    },
+    "E": {
+      "item": "gtceu:opv_energy_input_hatch"
+    }
+  },
+  "result": {
+    "item": "gtlsupb:opv_void_energy_absorber"
+  }
+}

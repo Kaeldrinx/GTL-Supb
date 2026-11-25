@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "IEI",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "gtceu:heatproof_machine_casing"
+    },
+    "E": {
+      "item": "gtceu:electric_blast_furnace"
+    }
+  },
+  "result": {
+    "item": "gtlsupb:mo_wan"
+  }
+}

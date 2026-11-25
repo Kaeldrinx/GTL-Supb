@@ -1,0 +1,13 @@
+/.gradle/
+/build/
+/libs/
+
+# IDE / OS
+/.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs and local state
+*.log
+/.codebuddy/

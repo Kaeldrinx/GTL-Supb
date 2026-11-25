@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PEP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "gtceu:adamantium_plate"
+    },
+    "E": {
+      "item": "gtceu:uiv_energy_input_hatch"
+    }
+  },
+  "result": {
+    "item": "gtlsupb:uiv_void_energy_absorber"
+  }
+}
