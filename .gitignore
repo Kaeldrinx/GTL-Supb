@@ -2,6 +2,10 @@
 /build/
 /libs/
 
+# 非构建相关的本地资料与工具（不上传）
+/API_STANDARDS/
+/tools/
+
 # IDE / OS
 /.idea/
 *.iml
