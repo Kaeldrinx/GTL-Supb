@@ -10,7 +10,7 @@ GregTech Leisure Private goods expansion module —— 基于 Minecraft Forge 1.
 - FTB Quests、Jade、JEI 等第三方模组集成
 - 客户端 UI、Mixin 补丁、C2S/S2C 网络包
 
-源码位于 `src/main/java/com/gtlsupb/gtlsupb/`，资源位于 `src/main/resources/`，设计文档与变更记录见 `docs/`。
+源码位于 `src/main/java/com/gtlsupb/gtlsupb/`，资源位于 `src/main/resources/`。设计文档与变更记录保存在本地 `docs/` 目录，不纳入本仓库。
 
 ## 构建环境
 
@@ -70,7 +70,7 @@ $env:JAVA_HOME='C:\path\to\jdk-17'
 
 - **不要默认加 `--offline`**：Loom 缓存锁残留或 Minecraft / Forge / MCP 版本变更时会触发联网重建，离线模式会直接失败。
 - 首次构建或缓存重建可能耗时较长（MCP 处理 + 依赖重映射），CPU 持续运行时不要中途终止。
-- 详细的构建踩坑记录与发布检查清单见 [`docs/构建与验证-20261102.md`](docs/构建与验证-20261102.md)，完整文档索引见 [`docs/README.md`](docs/README.md)。
+- 详细的构建踩坑记录与发布检查清单保存在本地 `docs/` 目录（不随本仓库发布）。
 
 ## 许可
 
